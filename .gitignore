@@ -1,0 +1,27 @@
+# Resultados e documentos reais (nunca versionar)
+resultado_detran.json
+resultado_simples.json
+crlve.pdf
+*.pdf
+*.bin
+
+# Credenciais e ambiente
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE / SO
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
